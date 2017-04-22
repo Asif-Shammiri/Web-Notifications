@@ -1,0 +1,52 @@
+{
+  "name": "Full Name Here (Optional)",
+  "short_name": "You Short Name",
+
+  // Logo Icons here in different Sizes For Different Screens
+
+  "icons": [
+		{
+        "src": "120x120.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }, 
+	  {
+        "src": "152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      }, 
+	  {
+        "src": "144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }, 
+	  {
+        "src": "192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "192x192.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "192x192.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+	  ],
+
+  // your Url with Launcher true
+  "start_url": "Welcome.aspx?launcher=true",
+  //Scope of the project
+  "scope": "/",
+
+  //Disable Browser Bar and website be lke Application
+  "display": "standalone",
+  // Orientation Of the screen
+  "orientation": "portrait",
+  //theme is for Splash Screen
+  "background_color": "#aac73c ",
+  "theme_color": "#63528a"
+}
